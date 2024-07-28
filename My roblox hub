@@ -38,8 +38,8 @@ end)
 local CoreGui = game:GetService("StarterGui")
 
 -- 定义两个白名单
-local BetaTesterWhitelist = {""} -- 内测人员名单
-local DeveloperWhitelist = {"kinkin483362","altetle3"} -- 开发者名单
+local BetaTesterWhitelist = {"altetle3"} -- 内测人员名单
+local DeveloperWhitelist = {"kinkin483362"} -- 开发者名单
 
 -- 发送通知的函数
 local function SendNotification(title, text, duration)
